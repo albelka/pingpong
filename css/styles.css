@@ -1,0 +1,46 @@
+.again {
+  display: none;
+}
+
+h1 {
+  border: 3px;
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  padding: 5%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  float: right;
+  width: 40%;
+  padding-right: 10%;
+
+}
+img table {
+  width: 100%;
+}
+
+a {
+  border:  3px grey;
+  background-color: #f1f7bb;
+  padding: 1%;
+  border-radius: 10px;
+  float: left;
+}
+
+button {
+  background-color: #ffeee6;
+  padding: 1%;
+}
+
+body {
+  background: url("../img/table.png");
+  background-size: cover;
+}
+
+label {
+  font-size: 20px;
+}

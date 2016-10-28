@@ -12,16 +12,20 @@
     <div class="container">
       <form id="pong">
         <h1>Let's play ping pong!</h1>
+        <img src="img/ping-pong.png" alt="A picture of ping-pong balls" />
         <br> <br>
         <label for="number" >Enter your number here: </label>
-        <input id ="number" class="form-control" type="text">
+        <input id ="number"  type="text">
         <br><br>
         <button type="submit" class="btn">Submit!</button>
       </form>
-      <br><br><br>
-      <div id="result">
-
+      <br><br>
+      <div class="again">
+        <a href="javascript:location.reload();" >Play again!</a>
       </div>
+      <br><br>
+      <h4 id="result"></h4>
+
     </div>
   </body>
 </html>

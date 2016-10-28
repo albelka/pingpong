@@ -19,15 +19,15 @@ return counts;
 
 
 
-
 $(document).ready(function(){
   $("form").submit(function(event){
     var inputNumber = parseInt($("input#number").val());
     var result = pong(inputNumber);
+    $(".again").show();
 
-    // $("#hidden").show();
-    $("#result").text(result);
-    // $(".disappear").hide();
+    for (var i = 0; i < result.length; i++) {
+      $("#result").append('<li>' + result[i] + '</li>');
+    }
     event.preventDefault();
   });
 });
