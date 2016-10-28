@@ -16,18 +16,28 @@ for(var i=1; i <= number; i++) {
 return counts;
 };
 
+var verify = function(number){
+  if(number){
+
+  }  else {
+      alert("Please enter a number to play ping-pong!");
+    }
+  };
+
+
+
 
 
 
 $(document).ready(function(){
   $("form").submit(function(event){
-    var inputNumber = parseInt($("input#number").val());
+    var inputNumber = Math.abs(parseInt($("input#number").val()));
+    verify(inputNumber);
     var result = pong(inputNumber);
-    $(".again").show();
-
     for (var i = 0; i < result.length; i++) {
       $("#result").append('<li>' + result[i] + '</li>');
     }
+    $(".again").show();
     event.preventDefault();
   });
 });

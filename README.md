@@ -47,7 +47,7 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 ## Support and contact details
 
-_Please contact antastic461@gmail.com with questions. Contributions are always appreciated._
+_No known bugs._
 
 ## Technologies Used
 

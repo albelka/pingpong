@@ -2,11 +2,15 @@
   display: none;
 }
 
+.pic {
+  display: none;
+}
+
 h1 {
   border: 3px;
   background-color: white;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 10%;
   padding: 5%;
   border-radius: 10px;
@@ -17,6 +21,7 @@ img {
   float: right;
   width: 40%;
   padding-right: 10%;
+  padding-top: 10%;
 
 }
 img table {
