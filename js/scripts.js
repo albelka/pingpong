@@ -23,7 +23,13 @@ var verify = function(number){
       alert("Please enter a number to play ping-pong!");
     }
   };
-
+var surprise = function(number) {
+  for(var i=1; i <= number; i++) {
+    if (i % 15 === 0){
+      return true;
+    }
+  }
+};
 
 
 
@@ -31,13 +37,19 @@ var verify = function(number){
 
 $(document).ready(function(){
   $("form").submit(function(event){
+    event.preventDefault();
     var inputNumber = Math.abs(parseInt($("input#number").val()));
     verify(inputNumber);
+    var rewardBall =surprise(inputNumber);
     var result = pong(inputNumber);
+
     for (var i = 0; i < result.length; i++) {
       $("#result").append('<li>' + result[i] + '</li>');
     }
-    $(".again").show();
-    event.preventDefault();
+    $(".playAgain").show();
+
+    if (rewardBall) {
+      $(".rewardBall").show();
+    }
   });
 });

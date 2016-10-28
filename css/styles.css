@@ -1,9 +1,14 @@
-.again {
+.playAgain {
   display: none;
 }
 
-.pic {
+.rewardBall {
   display: none;
+}
+
+.rewardBall {
+  border: 3px;
+
 }
 
 h1 {
@@ -22,8 +27,19 @@ img {
   width: 40%;
   padding-right: 10%;
   padding-top: 10%;
-
 }
+
+p {
+  background-color: white;
+  border: 3px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+}
+
 img table {
   width: 100%;
 }
