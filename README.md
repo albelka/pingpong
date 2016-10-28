@@ -16,7 +16,7 @@ _This is a webpage that plays ping-ping with the user based on a number provided
 * _It can detect numbers divisible by 3.
     Example Input: 6
     Example Output: [true]_
-* _iIt can can replace numbers divisible by 5 with the word "ping".
+* _iIt can can replace numbers divisible by 3 with the word "ping".
     Example Input: 6
     Example Output: ["ping"]_
 * _It can detect numbers divisible by 5.

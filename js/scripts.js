@@ -6,7 +6,10 @@ for(var i=1; i<=inputNumber; i++) {
 }
 counts;
 
-for(var i=0;i<=inputNumber;i++) {}
+for(var i=0;i<=inputNumber;i++) {
+  if (counts[i] % 3 === 0)
+  counts.push("ping");
+}
 
 
 
