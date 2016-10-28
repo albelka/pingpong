@@ -39,7 +39,7 @@ _This is a webpage that plays ping-ping with the user based on a number provided
     * _Example Output: "You won a ping-pong ball"_
 ## Setup/Installation Requirements
 
-* _Try this game at albelka.github.io/pong_
+* _Try this game at albelka.github.io/pingpong_
 * _Enter a number_
 * _Play!_
 
